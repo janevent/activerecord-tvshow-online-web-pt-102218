@@ -6,4 +6,6 @@ class CreateShows < ActiveRecord::Migration
     t.integer :rating 
   end
   
+  def highest_rating 
+  end
 end
