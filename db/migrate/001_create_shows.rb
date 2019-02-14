@@ -10,3 +10,4 @@ class CreateShows < ActiveRecord::Migration
     Show.maximum("rating")
   end
 end
+
