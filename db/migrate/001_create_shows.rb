@@ -7,6 +7,6 @@ class CreateShows < ActiveRecord::Migration
   end
   
   def highest_rating 
-    
+    Show.maximum("rating")
   end
 end
